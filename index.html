@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyClock Support</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.7; color: #1e293b; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  h3 { font-size: 1rem; margin-bottom: .25rem; }
+  .tagline { color: #64748b; margin-top: 0; }
+  a { color: #2563eb; }
+  ul { padding-left: 1.25rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e2e8f0;
+           color: #64748b; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>MyClock</h1>
+<p class="tagline">A full-screen clock with local weather, alarms and a world clock — a display meant to be seen from across the room.</p>
+
+<h2>Support</h2>
+<p>Questions, bug reports or feature requests:
+<a href="mailto:wangjin2013@gmail.com">wangjin2013@gmail.com</a></p>
+<p>When reporting a problem, it helps to include your iOS version, the app version
+(<em>Settings → Version</em>), and the steps that led to the problem.</p>
+
+<h2>Getting Started</h2>
+
+<h3>The clock fills the screen</h3>
+<p>On launch the clock owns the whole screen, with no buttons in the way. Tap anywhere to
+reveal the tab bar — <strong>Clock</strong>, <strong>Weather</strong>, <strong>Alarm</strong>,
+<strong>World</strong> and <strong>Settings</strong> — then tap a tab to open it. Tap the
+<strong>Clock</strong> tab to hide the bar again and give the screen back to the clock.</p>
+
+<h3>Choose a clock style</h3>
+<p>Go to <em>Settings → Clock style</em> and pick the one you like best: Digital, Analog, Flip,
+LCD, Dot matrix, Rings, Word clock or Minimal. All faces are original designs drawn by the app —
+none of them imitate another product.</p>
+
+<h3>See your local weather</h3>
+<p>The <strong>Weather</strong> tab shows the current conditions — temperature, what it feels
+like, humidity and wind — followed by today and the next ten days. Allow location access when
+asked and the forecast follows wherever you are; tap any day for hour-by-hour detail, including
+the chance of precipitation and the sunrise and sunset times. The temperature unit
+(Celsius or Fahrenheit) is in <em>Settings → Temperature unit</em>. Forecast data is provided by
+<a href="https://open-meteo.com/">Open-Meteo</a>.</p>
+
+<h3>Set an alarm</h3>
+<p>The <strong>Alarm</strong> tab shows a ring of all 24 hours: hours with an alarm are drawn
+thick, hours without stay thin. Tap an hour on the dial to create an alarm there, or tap
+<strong>Edit</strong> to manage the ones you have. Each alarm can be given:</p>
+<ul>
+  <li>repeat days — tap the circles to pick any combination of Monday to Sunday; leave them all
+      off for a one-time alarm</li>
+  <li>a sound — ten tones to choose from, with a preview button to hear each one</li>
+  <li>snooze, with the length settable to 5, 10, 15, 20 or 30 minutes</li>
+  <li>a label, shown on the alarm screen and in the notification</li>
+</ul>
+
+<h3>Track other cities</h3>
+<p>The <strong>World</strong> tab is a world clock you page through: swipe left and right to move
+between cities, each with its own time and the day relative to yours (yesterday, today or
+tomorrow). New York, Beijing, Geneva and London are there to start with — tap <strong>+</strong>
+to add any city from the built-in catalog, and remove the ones you don't need.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why does my alarm stop ringing after about 30 seconds?</h3>
+<p>iOS reserves indefinite ringing for the system Clock app. Third-party alarms are delivered as
+local notifications, and iOS caps their sound at 30 seconds — every alarm app on the App Store
+works within this limit. Snooze keeps working: tap <strong>Snooze</strong> on the notification and
+the alarm comes back after the interval you chose. If MyClock is open when the alarm fires, a
+full-screen ring takes over instead, with <strong>Snooze</strong> and <strong>Stop</strong> right
+there on screen.</p>
+
+<h3>My alarm didn't go off. What should I check?</h3>
+<p>Alarms are delivered as notifications, so MyClock needs notification permission — you were
+asked for it the first time you saved an alarm. If you declined, allow notifications for MyClock
+in iOS <em>Settings → Notifications → MyClock</em> (or from the app: <em>Settings → System
+Settings</em>). Also check that the alarm is still enabled on the dial — its hour is thick only
+when the alarm is on. And note that notifications fire on the device itself: an alarm set on your
+iPhone won't ring on your iPad.</p>
+
+<h3>The weather area says to enable location, or shows nothing.</h3>
+<p>The forecast follows your current location, which needs location permission. If you declined,
+you can grant it in iOS <em>Settings → MyClock → Location</em> (or from the app:
+<em>Settings → System Settings</em>). If permission is fine but the weather is unavailable, the
+forecast service may be unreachable — wait a moment and use <strong>Try again</strong>. The last
+successful reading stays visible offline until a new one arrives.</p>
+
+<h3>Is my location stored or shared?</h3>
+<p>No. Your location is used only to fetch the local forecast — it is never stored on a server of
+ours, never used for advertising, and never shared with anyone other than the weather service the
+forecast itself comes from. The app works without location permission; you just won't see the
+weather. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+<h3>Why do I see ads, and can I turn off personalised ads?</h3>
+<p>MyClock is free and supported by banner ads, which appear on the Weather, Alarm and World tabs
+— never over the clock itself or in Settings. You can turn off personalised ads in iOS
+<em>Settings → Privacy & Security → Tracking</em>. Ads will still appear, but they will not be
+personalised.</p>
+
+<h3>What happens if I delete the app?</h3>
+<p>Everything the app keeps — your alarms, your chosen cities, the clock style and other
+preferences, and the last weather reading — is stored on your device and removed with it, and any
+scheduled alarm notifications are cancelled. There is no account and no server copy: reinstalling
+starts from a clean slate.</p>
+
+<footer>
+<p><a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
